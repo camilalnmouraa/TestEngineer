@@ -99,28 +99,28 @@ def additional_bgr_colors():
     return [(255, 0, 255), (255, 255, 0)]
 
 # Fixture para testar a função is_port_open
-
+"""
 @pytest.fixture
 def sample_ip():
-    """
-    Fixture que fornece um endereço IP de exemplo.
-    """
+    
+    #Fixture que fornece um endereço IP de exemplo.
+    
     return "127.0.0.1"
 
 @pytest.fixture
 def sample_open_port():
-    """
-    Fixture que fornece um número de porta aberta de exemplo.
-    """
+    
+    #Fixture que fornece um número de porta aberta de exemplo.
+    
     return 80
 
 @pytest.fixture
 def sample_closed_port():
-    """
-    Fixture que fornece um número de porta fechada de exemplo.
-    """
+    
+    #Fixture que fornece um número de porta fechada de exemplo.
+    
     return 81
-
+"""
 # Fixture para testar a função wait_for_service
 
 def mock_healthcheck_server():
